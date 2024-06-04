@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin-top: 20%;
+            margin-left: 30%;
+            margin-right: 30%;
+            border: black solid 2px;
+            border-radius: 10px;
+            align-items: center;
+            padding: 10px;
+            width: 240px;
+        }
+        .display-text {
+            width: 100%;
+            margin-right: 20px;
+        }
+        .col-main h3 {
+            text-align: center;
+            letter-spacing: 3;
+        }
+        .row-main {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .row-btn {
+            width: 50px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form class="col-main">
+            <h3>CALCULATOR</h3>
+            <div class="row-main">
+                <input type="text" class="display-text" id="display">
+                <button class="row-btn" onclick="myFun()">C</button>
+            </div>
+            <div class="row-main">
+                <button class="row-btn">1</button>
+                <button class="row-btn">2</button>
+                <button class="row-btn">3</button>
+                <button class="row-btn">/</button>
+            </div>
+            <div class="row-main">
+                <button class="row-btn">4</button>
+                <button class="row-btn">5</button>
+                <button class="row-btn">6</button>
+                <button class="row-btn">*</button>
+            </div>
+            <div class="row-main">
+                <button class="row-btn">7</button>
+                <button class="row-btn">8</button>
+                <button class="row-btn">9</button>
+                <button class="row-btn">-</button>
+            </div>
+            <div class="row-main">
+                <button class="row-btn">0</button>
+                <button class="row-btn">.</button>
+                <button class="row-btn">=</button>
+                <button class="row-btn">+</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        
+    </script>
+</body>
+</html>
